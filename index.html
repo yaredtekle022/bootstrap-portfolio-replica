@@ -368,36 +368,74 @@
       </section>
     </main>
     <footer class="pt-5">
-      <section class="py-5">
-        <div class="container px-5 pb-5">
-          <div class="row px-5 pb-5">
-            <div class="col-5 border">
+      <section class="py-5 border-bottom">
+        <div class="container px-lg-5 pb-5">
+          <div class="row px-lg-5 pb-5">
+            <div class="text-lg-start text-center col-lg-5 col-12 pt-lg-5 pe-lg-5 pb-3">
               <h2 class="fw-semibold">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
               </h2>
             </div>
-            <div class="col border">
+            <div class="col-lg-7 col-12">
               <form action="#" method="POST">
                 <div class="mb-3">
-                  <label for="user_name" class="form-label">Full name</label>
-                  <input type="email" class="form-control" id="user_name" placeholder="Full name" />
+                  <label for="user_name" class="form-label invisible m-0 p-0">Full name</label>
+                  <input
+                    type="email"
+                    class="form-control border-0 border-bottom"
+                    id="user_name"
+                    placeholder="Full name"
+                    style="border-radius: 0"
+                  />
                 </div>
                 <div class="mb-3">
-                  <label for="user_email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="user_email" placeholder="Email address" />
+                  <label for="user_email" class="form-label invisible m-0 p-0">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control border-0 border-bottom"
+                    id="user_email"
+                    placeholder="Email address"
+                    style="border-radius: 0"
+                  />
                 </div>
                 <div class="mb-3">
-                  <label for="user_massage" class="form-label">Message</label>
+                  <label for="user_massage" class="form-label invisible m-0 p-0">Message</label>
                   <textarea
-                    class="form-control"
+                    class="form-control border-0 bg-light"
                     id="user_massage"
                     rows="3"
                     placeholder="Type in your message"
+                    style="border-radius: 0; height: 7rem"
                   ></textarea>
+                </div>
+                <div class="mb-3">
+                  <button class="text-white border-0 p-3" style="background-color: #f55800">Get in touch</button>
                 </div>
               </form>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="p-4">
+        <div class="container">
+          <ul class="text-center list-inline row justify-content-center">
+            <li class="col-auto">
+              <a href=""><img src="images/github.svg" alt="Github icon" /></a>
+            </li>
+            <li class="col-auto">
+              <a href=""><img src="images/Linkedin-icon.svg" alt="Linkedin-icon" /></a>
+            </li>
+            <li class="col-auto">
+              <a href=""><img src="images/angel-list.svg" alt="angel-list icon" /></a>
+            </li>
+            <li class="col-auto">
+              <a href=""><img src="images/twitter.svg" alt="twitter icon" /></a>
+            </li>
+            <li class="col-auto">
+              <a href=""><img src="images/medium.svg" alt="medium icon" /></a>
+            </li>
+          </ul>
         </div>
       </section>
     </footer>
